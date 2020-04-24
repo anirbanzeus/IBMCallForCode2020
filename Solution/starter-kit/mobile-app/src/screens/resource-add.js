@@ -173,7 +173,7 @@ const AddResource = function ({ navigation }) {
         enablesReturnKeyAutomatically={true}
         placeholder='9000090000'
         keyboardType='numeric'
-      />user
+      />
       <Text style={styles.label}>Description</Text>
       <TextInput
         style={styles.textInput}

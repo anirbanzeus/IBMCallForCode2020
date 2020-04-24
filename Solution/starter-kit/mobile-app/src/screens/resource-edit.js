@@ -202,7 +202,7 @@ const EditResource = (props) => {
         placeholder='e.g., Mask workers'
         blurOnSubmit={false}
       />
-      <Text style={styles.label}>Contact</Text>
+      <Text style={styles.label}>Contact No</Text>
       <TextInput
         style={styles.textInput}
         value={item.contact}
@@ -210,7 +210,8 @@ const EditResource = (props) => {
         onSubmitEditing={updateItem}
         returnKeyType='send'
         enablesReturnKeyAutomatically={true}
-        placeholder='user@domain.com'
+        placeholder='90000 90000'
+        keyboardType='numeric'
       />
       <Text style={styles.label}>Description</Text>
       <TextInput

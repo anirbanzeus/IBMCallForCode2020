@@ -163,7 +163,7 @@ const AddResource = function ({ navigation }) {
         placeholder='e.g., Mask worker'
         blurOnSubmit={false}
       />
-      <Text style={styles.label}>Contact</Text>
+      <Text style={styles.label}>Contact No</Text>
       <TextInput
         style={styles.textInput}
         value={item.contact}
@@ -171,8 +171,9 @@ const AddResource = function ({ navigation }) {
         onSubmitEditing={sendItem}
         returnKeyType='send'
         enablesReturnKeyAutomatically={true}
-        placeholder='user@domain.com'
-      />
+        placeholder='9000090000'
+        keyboardType='numeric'
+      />user
       <Text style={styles.label}>Description</Text>
       <TextInput
         style={styles.textInput}
